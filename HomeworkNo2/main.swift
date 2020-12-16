@@ -7,5 +7,12 @@
 
 import Foundation
 
-print("Hello, World!")
+func divisionthree(value: Int){
+     if value % 3 == 0{
+        print("делится без остатка")
+     }else {
+        print("делится с остатком")
+     }
+ }
+ divisionthree(value: 30)
 
