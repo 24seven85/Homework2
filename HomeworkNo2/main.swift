@@ -7,5 +7,10 @@
 
 import Foundation
 
-print("Hello, World!")
 
+var array = [Int]()
+for index in 1...100{
+    array.append(index)
+      
+}
+print(array)
